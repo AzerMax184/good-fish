@@ -1,0 +1,152 @@
+*{
+   font-family:"century gothic" ;
+}
+
+body{
+   width: 100%;
+   font-family:"century gothic" ;
+   /* background-color: black; */
+}
+
+.box{
+   border: 2px dotted red;
+}
+
+.swiper-slide{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+}
+
+.card-produit {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   height: 400px;
+   /* margin: 1%; */
+
+   border: 3px solid turquoise;
+   border-radius: 20px;
+}
+
+.card-img{
+   width: 60%;
+   height: 100%;
+}
+
+.card-img img{
+   width: 100%;
+   height: 100%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-right: 4px solid turquoise ;
+}
+
+.card-text{
+   width: 40%;
+   padding-left:10px ;
+   padding-right:10px ;
+   /* text-align: center; */
+}
+
+.card-text h3{
+   margin-top: 2%;
+   margin-right:2% ;
+   /* overflow-x: auto; */
+   /* border-bottom: 3px solid turquoise; */
+}
+
+.incard-text{
+  /* margin: 10%; */
+  margin-top: 10%;
+  margin-bottom: 20%;
+  text-align: center;
+  /* text-align: center; */
+}
+
+.new {
+   justify-content: center;
+   align-items: center;
+   background-color: turquoise;
+   width: 60px;
+   height: 60px;
+   display: flex;
+   border-radius: 100%;
+   color: white;
+   
+   position: relative;
+   right: -180px;
+   top: -40px;
+
+   cursor: pointer;
+   z-index: 2;
+}
+
+.btn{
+   margin-left: 16%;
+}
+
+.point-plein{
+   display: inline-block;
+   border: 2px solid turquoise;
+   border-radius: 100%;
+   width: 10px;
+   height: 10px;
+   margin-left: 4px;
+   background-color: rgba(64, 224, 208, 0.4);
+   
+}
+
+.point-vide{
+   display: inline-block;
+   border: 2px solid turquoise;
+   border-radius: 100%;
+   width: 10px;
+   height: 10px;
+   margin-left: 4px;
+   background-color: white;
+   
+}
+
+/* .p{
+   margin-left: 30px;
+} */
+
+.prix{
+   color: rgba(64, 224, 208, 0.7);
+}
+
+
+
+.new-p{
+   display: inline-block;
+   margin: 20px;
+}
+
+.new-produits{
+   padding: 0%;
+}
+
+.new-produits .card-produit{
+   width: 380px;
+   height: 350px;
+}
+
+.new-produits .new {
+   position: relative;
+   right: -90px;
+   top: -40px;
+}
+
+.new-produits .btn{
+   margin-left: 20%;
+   width: 100px;
+}
+
+.new-produits h3{
+   font-size: 25px;
+}
+
+

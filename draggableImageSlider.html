@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="css/dis.css"> -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- <script src="js/dis.js" defer></script> -->
+    <style>
+        .swipper{
+            width: 950px;
+        }
+    </style>
+    <title>Draggable Image</title>
+ </head>
+ <body>
+     <!-- <div class="wrapper">
+        <i id="left" class="fas fa-angle-left"></i>
+        <div class="caroussel">
+            <img src="images/theme/317793.jpg" alt=""  draggable="false">
+            <img src="images/theme/eclipse.jpg" alt=""  draggable="false">
+            <img src="images/theme/plage.jpg" alt=""  draggable="false">
+            <img src="images/theme/planet.jpg" alt=""  draggable="false">
+            <img src="images/theme/planet2.jpg" alt=""  draggable="false">
+            <img src="images/theme/space.jpg" alt=""  draggable="false">
+            <img src="images/theme/sunset.jpg" alt=""  draggable="false">
+            <img src="images/theme/vortex.jpg" alt=""  draggable="false">
+            <img src="images/theme/wolf.jpg" alt=""  draggable="false">
+
+        </div>
+        <i id="right" class="fas fa-angle-right"></i>
+    </div> -->
+    <div class="swiper mySwiper wrapper">
+        <div class="swiper-wrapper caroussel">
+            <div class="swiper-slider">
+                <img  src="images/theme/317793.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/eclipse.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/plage.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/planet.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/planet2.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/space.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/sunset.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/vortex.jpg" alt="" >
+            </div>
+            <div class="swiper-slider">
+                <img  src="images/theme/wolf.jpg" alt="" >
+            </div>
+        </div>
+    </div>
+    <div class="slider-button-next"></div>
+    <div class="slider-button-prev"></div>
+    <div class="slider-pagination"></div>
+ </body>
+ <script src="js/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3 ,
+        spaceBetween: 30 ,
+        slidesPerGroup: 3,
+        loop: true ,
+        loopFillGroupWithBlank: true ,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true ,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+ </script>
+ </html>

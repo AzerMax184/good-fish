@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>sliding box</title>
+    <link rel="stylesheet" href="css/bootstap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/sliderBox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    
+    <script src="js/fichierJquery/jquery.js"></script>
+</head>
+<body>
+    <section class="bloc-produit ">
+        <h1> <span>N</span>os produits</h1>
+        <div class="trait"></div>
+        <br><br><br><br>
+           
+       
+            <div class="bloc produit-slider swiper" style="user-select: none;">
+               
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide ">
+                        
+                        <div class="card-produit ">
+                            <div class="card-img">
+                                <img src="images/slider/poisson1.jpg" alt="">
+                            </div>
+    
+                            <div class="card-text ">
+                                <b class="new">new</b>  
+                                <!-- <hr>             -->
+                                <h3> POISSON CHAT  </h3> 
+                                <hr>
+                                <div class="incard-text">
+                                    <b>Qualite :</b>  
+                                    <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i>        
+                                    <br>
+                                    <b class="p">Prix :</b> <b class="prix">200 $</b>
+                                </div>
+                                <a href="" class="btn">Panier</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide ">
+                        
+                        <div class="card-produit ">
+                            <div class="card-img">
+                                <img src="images/slider/poisson2.jpg" alt="">
+                            </div>
+    
+                            <div class="card-text ">
+                                <b class="new">new</b> 
+                                <!-- <hr>              -->
+                                <h3> POISSON AZZER  </h3> 
+                                <hr>
+                                <div class="incard-text">
+                                    <b>Qualite :</b>  
+                                    <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i class="point-vide"></i>        
+                                    <br>
+                                    <b class="p" >Prix :</b> <b class="prix">200 $</b>
+                                </div>
+                                <a href="" class="btn">Panier</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+    </section>
+</body>
+<script src="vendor/swiper/glightbox.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script>
+     new Swiper('.produit-slider', {
+        slidesPerView: 1 ,
+        slidesPerGroup: 1,
+        spaceBetween: 100 ,
+        // spaceBefore: 100 ,
+        // loopFillGroupWithBlank: true ,
+        loop: true,
+        speed: 600,
+        autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+        },
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+        }
+    });
+</script>
+</html>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

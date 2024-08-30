@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/bootstap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sliderBox.css">
+    <link rel="stylesheet" href="../css/styleRespo.css">
+    <link rel="stylesheet" href="../css/fontawesome/css/all.css">
+    <script src="../js/fichierJquery/jquery.js"></script>
+    <script src="../js/fichierJquery/queryloader2.min.js"></script>
+    <link rel="stylesheet" href="../vendor/swiper/swiper-bundle.min.css">
+
+    <title>Good Fish</title>
+</head>
+
+<body>
+    <div class="bloc-menu">
+        <nav>
+            <div class="toggle">
+                <i class="fas fa-bars ouvrir"> </i>
+                <i class="fas fa-times fermer"> </i>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../index.html#accueil" class="accueil">Accueil</a></li>
+                <li><a href="../index.html#apropos" class="apropos">A Propos</a></li>
+                <li><a href="../index.html#produit" class="produit">Nos produits</a></li>
+                <li><a href="../index.html#commande" class="commande">Commande</a></li>
+                <li><a href="../index.html#livraison" class="livraison">Livraison</a></li>
+                <li><a href="../index.html#sincrire" class="sincrire">S'incrire</a></li>
+                <li><a href="connecte.html" class="commentaire">Se connecter</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="bloc-produit " id="produit">
+        <h1 style="text-align: center; margin-left: -50px;"> <span>N</span>os produits</h1>
+        <br><br>
+        <!-- <div class="trait-p"></div> -->
+        <div class="search-produit">
+            <input class="input-search" type="search" name="article" id="article"
+                placeholder="..Entrez le nom du produit..">
+            <button class="btn-search">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <br><br>
+
+        <br><br>
+        <!-- :::::::::::::::: style dans sliderBox.css ::::::::::::::::::::::: -->
+        <h3>Recommandés :</h3>
+        <br><br>
+        <div class="bloc produit-slider2 swiper" style="user-select: none;">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit ">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson5.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>             -->
+                            <h3> POISSON UN </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                    class="point-plein"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">100 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit ">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson6.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>              -->
+                            <h3> POISSON DEUX </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i
+                                    class="point-vide"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">200 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- point en bas  -->
+            <div class="swiper-pagination"></div>
+            <!-- fin -->
+            <br><br><br>
+        </div>
+        <br><br>
+        <h3>Saisonier :</h3>
+        <br><br>
+        <div class="bloc produit-slider2 swiper" style="user-select: none;">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson7.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>             -->
+                            <h3> POISSON TROIS </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                    class="point-plein"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">300 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson8.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>              -->
+                            <h3> POISSON QUATRE </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i
+                                    class="point-vide"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">400 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson9.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>             -->
+                            <h3> POISSON CINQ </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                    class="point-plein"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">500 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson5.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>              -->
+                            <h3> POISSON SIX </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i
+                                    class="point-vide"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">600 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- point en bas  -->
+            <div class="swiper-pagination"></div>
+            <!-- fin -->
+            <br><br><br>
+        </div>
+        <h3>Plus commandés :</h3>
+        <br><br>
+        <div class="bloc produit-slider2 swiper" style="user-select: none;">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson7.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>             -->
+                            <h3> POISSON TROIS </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                    class="point-plein"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">300 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson8.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>              -->
+                            <h3> POISSON QUATRE </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i
+                                    class="point-vide"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">400 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson9.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>             -->
+                            <h3> POISSON CINQ </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                    class="point-plein"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">500 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide ">
+
+                    <div class="card-produit resCardProd">
+                        <div class="card-img">
+                            <img src="../images/slider/poisson5.jpg" alt="">
+                        </div>
+
+                        <div class="card-text ">
+                            <b class="new">new</b>
+                            <!-- <hr>              -->
+                            <h3> POISSON SIX </h3>
+                            <hr>
+                            <div class="incard-text">
+                                <b>Qualite :</b>
+                                <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i
+                                    class="point-vide"></i>
+                                <br>
+                                <b class="p">Prix :</b> <b class="prix">600 $</b>
+                            </div>
+                            <a href="" class="btn">Panier</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- point en bas  -->
+            <div class="swiper-pagination"></div>
+            <!-- fin -->
+            <br><br><br>
+        </div>
+        <br><br>
+        <h3>Nouveau :</h3>
+        <br><br>
+
+
+        <div class="new-produits ">
+            <!--::::::::::::::::::: les Nouveaux produits ::::::::::::::::::::::::::::::::::-->
+
+            <div class="new-p">
+                <div class="card-produit resCardProd">
+                    <div class="card-img">
+                        <img src="../images/slider/poisson7.jpg" alt="">
+                    </div>
+
+                    <div class="card-text ">
+                        <b class="new">new</b>
+                        <!-- <hr>             -->
+                        <h3> POISSON TROIS </h3>
+                        <hr>
+                        <div class="incard-text">
+                            <b>Qualite :</b>
+                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                class="point-plein"></i>
+                            <br>
+                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                        </div>
+                        <a href="" class="btn">Panier</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-p">
+                <div class="card-produit resCardProd">
+                    <div class="card-img">
+                        <img src="../images/slider/poisson7.jpg" alt="">
+                    </div>
+
+                    <div class="card-text ">
+                        <b class="new">new</b>
+                        <!-- <hr>             -->
+                        <h3> POISSON TROIS </h3>
+                        <hr>
+                        <div class="incard-text">
+                            <b>Qualite :</b>
+                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                class="point-plein"></i>
+                            <br>
+                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                        </div>
+                        <a href="" class="btn">Panier</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-p">
+                <div class="card-produit resCardProd">
+                    <div class="card-img">
+                        <img src="../images/slider/poisson7.jpg" alt="">
+                    </div>
+
+                    <div class="card-text ">
+                        <b class="new">new</b>
+                        <!-- <hr>             -->
+                        <h3> POISSON TROIS </h3>
+                        <hr>
+                        <div class="incard-text">
+                            <b>Qualite :</b>
+                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                class="point-plein"></i>
+                            <br>
+                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                        </div>
+                        <a href="" class="btn">Panier</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-p">
+                <div class="card-produit resCardProd">
+                    <div class="card-img">
+                        <img src="../images/slider/poisson7.jpg" alt="">
+                    </div>
+
+                    <div class="card-text ">
+                        <b class="new">new</b>
+                        <!-- <hr>             -->
+                        <h3> POISSON TROIS </h3>
+                        <hr>
+                        <div class="incard-text">
+                            <b>Qualite :</b>
+                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                class="point-plein"></i>
+                            <br>
+                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                        </div>
+                        <a href="" class="btn">Panier</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-p">
+                <div class="card-produit resCardProd">
+                    <div class="card-img">
+                        <img src="../images/slider/poisson7.jpg" alt="">
+                    </div>
+
+                    <div class="card-text ">
+                        <b class="new">new</b>
+                        <!-- <hr>             -->
+                        <h3> POISSON TROIS </h3>
+                        <hr>
+                        <div class="incard-text">
+                            <b>Qualite :</b>
+                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i
+                                class="point-plein"></i>
+                            <br>
+                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                        </div>
+                        <a href="" class="btn">Panier</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--::::::::::::::::::: les Nouveaux produits ::::::::::::::::::::::::::::::::::-->
+        </div>
+
+        <br><br><br><br><br>
+        <div style="width: 100%;text-align: center;">
+            <a href="../index.html#commande" class="btn-plus"> Passer la Commande </a>
+        </div>
+        <br><br><br><br><br><br>
+    </section>
+</body>
+<script src="../vendor/swiper/glightbox.min.js"></script>
+<script src="../vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../js/slider.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/slideProduit.js"></script>
+<script src="../css/bootstap/js/bootstrap.bundle.js"></script>
+<script>
+    new Swiper('.produit-slider', {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 100,
+        // spaceBefore: 100 ,
+        // loopFillGroupWithBlank: true ,
+        loop: true,
+        speed: 600,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        }
+    });
+
+    new Swiper('.produit-slider2', {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 20,
+        // spaceBefore: 100 ,
+        // loopFillGroupWithBlank: true ,
+        loop: true,
+        speed: 600,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        }
+    });
+
+
+</script>
+
+</html>

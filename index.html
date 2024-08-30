@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sliderBox.css">
+    <link rel="stylesheet" href="css/styleRespo.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <script src="js/fichierJquery/jquery.js"></script>
+    <script src="js/fichierJquery/queryloader2.min.js"></script>
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+
+    <title>Good Fish</title>
+</head>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        "use strict";
+        new QueryLoader2(document.querySelector("body"), {
+            barColor: "rgb(29, 210, 223)",
+            backgroundColor: "rgba(255, 255, 255, 0.900)",
+            percentage: true,
+            barHeight: 2,
+            minimumTime: 200,
+            fadeOutTime: 1000
+        });
+    });
+</script>
+<body>
+    <!-- <div id="resultat" style="position: fixed; color: red;"></div> -->
+    <header class="" id="accueil">
+        <div class="ombre">
+            <br>
+                <div class="bloc-logo">
+                    <img src="images/logo2.png" alt="" width="100">
+                </div>
+                <br> 
+                <div class="bloc-menu">
+                   <nav>
+                        <div class="toggle">
+                            <i class="fas fa-bars ouvrir"> </i>
+                            <i class="fas fa-times fermer"> </i>
+                        </div>
+                        
+                        <ul class="menu">
+                            <li><a href="#accueil" class="accueil">Accueil</a></li>
+                            <li><a href="#apropos" class="apropos">A Propos</a></li>
+                            <li><a href="#produit" class="produit">Nos produits</a></li>
+                            <li><a href="#commande" class="commande">Commande</a></li>
+                            <li><a href="#livraison" class="livraison">Livraison</a></li>
+                            <li><a href="#sincrire" class="sincrire">S'incrire</a></li>
+                            <li><a href="pages/connecte.html" class="commentaire">Se connecter</a></li>
+                        </ul>
+                   </nav>
+                </div>
+                <!-- Menu-panier -->
+                <br>
+                <div class="bloc-titre">
+                    <h1 class="titre1"><!--<span class="fas fa-fish"></span><br>--> Bienvenue sur <br><span> GOOD FISH INDUSTRY.COM</span> </h1>
+                    <br><br>
+                    <p>Faites vos <a href=''>commandes</a> en ligne sur notre site web et vous <a href=''>livrez</a></p>
+                    <br>
+                </div>
+                <div id="precedent"><</div>
+                <div id="suivant">></div>
+                <div class="bloc-boutton">
+                    <a href="#sincrire" class="btn"><span>S</span>'incrire</a>
+                    <a href="#contacter" class="btn-principal"><span>C</span>ontacter</a>
+                </div>
+                <div class="bloc-bal">
+                    <span class="bal bal-1"></span>
+                    <span class="bal bal-2"></span>
+                    <span class="bal bal-3"></span>
+                    <span class="bal bal-4"></span>
+                    <span class="bal bal-5"></span>
+                </div>
+            </div>
+    </header>
+        <div class="bulle-haut"></div>
+        <div class="bulle-bas"></div>
+        <br>
+        <section class="bloc-apropos" id="apropos">
+            <h1> <span>A</span> Propos</h1>
+            <div class="sphere"></div>
+            <div class="trait"></div>
+            <br>
+            <div class="bloc-flex ">
+                <div class="inbloc-text ">
+                    <h4> <u> GOODFISH INDUSTRY </u> </h4> 
+                    <br><br>
+                    est née autour d’une problématique claire qui est celle de la non disponibilité du poisson en quantité et en qualité sur la table du Consommateur Africain .
+                    Au cours de nos multiples enquêtes sur le terrain, auprès des consommateurs, des vendeurs, il nous a été rapporté que non seulement le poisson vendu par les poissonneries est de qualité douteuse, et surtout n’est pas toujours disponible.
+                    Aussi il va s’en dire que la braise de poisson est l’un des street food des plus réputés au Cameroun et en Afrique. en moyenne 3 Africain sur 5 en consomment par jour , et l’idée d’avoir des produits frais ne ferait qu’ accroître cette clientèle .
+                </div>
+                <!-- <div class="bulle-poisson1"></div> -->
+                <!-- <div class="bulle-poisson2"></div> -->
+                <div class="inbloc-img ">
+                    <img src="images/logo.png" alt="" class="apropos-img">
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+        <div class="bloc-flex contact-infos">
+            <div class="my-call ">
+                <i class="fas fa-phone" style="color: turquoise;font-size: 40px;"></i>
+                <br><br>
+                <i>Appel :</i> <b> (+237)876545678 </b> 
+                <br>
+                <i>Lundi - Vendredi </i> <b> (8h00 - 22h-00) </b> 
+            </div>
+            <div class="my-email ">
+                <i class="fas fa-mail-bulk" style="color: turquoise;font-size: 40px;"></i>
+                <br><br>
+                <i>Email :</i> <b> goodfish@gmail.com </b> 
+                <br>
+                <i> web :</i> <b> www.goodfish.com </b> 
+            </div>
+            <div class="my-location ">
+                <i class="fas fa-location-arrow" style="color: turquoise;font-size: 40px;"></i>
+                <br><br>
+                <i>Position :</i> <b> ....Yaounde ..... </b> 
+                <br>
+                 <i>Quatier :</i> <b> .................. </b> 
+            </div>
+        </div>
+        <br><br>
+
+        <section class="bloc-produit " id="produit">
+            <h1> <span>N</span>os produits</h1>
+            <div class="trait-p"></div>
+            <br><br><br><br>
+               
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Autem cum fugit odit, odio neque quibusdam vel aspernatur
+                    commodi a architecto at? Odio consectetur harum placeat.
+                    Nihil eum aliquam at ut!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Autem cum fugit odit, odio neque quibusdam vel aspernatur
+                    commodi a architecto at? Odio consectetur harum placeat.
+                    Nihil eum aliquam at ut!
+                </p>
+                <br>
+                <div class="bg-turq">
+                    <div style="width: 30%;" class="resPub">
+                         Choisir goodfish c'est opter pour une variete de
+                    </div>
+                    <div style="width: 20%; border: 4px solid white; border-radius: 10px;" class="resNbre">
+                        <span class="nbre-poisson">000</span>  poisson 
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- :::::::::::::::: style dans sliderBox.css ::::::::::::::::::::::: -->
+
+                    <div class="bloc produit-slider swiper" style="user-select: none;">
+                    
+                        <div class="swiper-wrapper">
+        
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit ">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson5.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b>  
+                                        <!-- <hr>             -->
+                                        <h3> POISSON UN  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i>        
+                                            <br>
+                                            <b class="p">Prix :</b> <b class="prix">100 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit ">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson6.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b> 
+                                        <!-- <hr>              -->
+                                        <h3> POISSON DEUX  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i class="point-vide"></i>        
+                                            <br>
+                                            <b class="p" >Prix :</b> <b class="prix">200 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- point en bas  -->
+                        <div class="swiper-pagination"></div>
+                        <!-- fin -->       
+                        <br><br><br>
+                    </div>
+
+
+                    <div class="bloc produit-slider2 swiper" style="user-select: none;">
+                    
+                        <div class="swiper-wrapper">
+        
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit resCardProd">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson7.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b>  
+                                        <!-- <hr>             -->
+                                        <h3> POISSON TROIS  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i>        
+                                            <br>
+                                            <b class="p">Prix :</b> <b class="prix">300 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit resCardProd">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson8.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b> 
+                                        <!-- <hr>              -->
+                                        <h3> POISSON QUATRE  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i class="point-vide"></i>        
+                                            <br>
+                                            <b class="p" >Prix :</b> <b class="prix">400 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit resCardProd">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson9.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b>  
+                                        <!-- <hr>             -->
+                                        <h3> POISSON CINQ  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i><i class="point-plein"></i>        
+                                            <br>
+                                            <b class="p">Prix :</b> <b class="prix">500 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="swiper-slide ">
+                                
+                                <div class="card-produit resCardProd">
+                                    <div class="card-img">
+                                        <img src="images/slider/poisson5.jpg" alt="">
+                                    </div>
+            
+                                    <div class="card-text ">
+                                        <b class="new">new</b> 
+                                        <!-- <hr>              -->
+                                        <h3> POISSON SIX  </h3> 
+                                        <hr>
+                                        <div class="incard-text">
+                                            <b>Qualite :</b>  
+                                            <i class="point-plein"></i><i class="point-plein"></i><i class="point-vide"></i><i class="point-vide"></i>        
+                                            <br>
+                                            <b class="p" >Prix :</b> <b class="prix">600 $</b>
+                                        </div>
+                                        <a href="" class="btn">Panier</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- point en bas  -->
+                        <div class="swiper-pagination"></div>
+                        <!-- fin -->       
+                        <br><br><br>
+                    </div>
+                  
+                <!-- ::::::::::::::::: fin :::::::::::::::: -->
+                <br><br>
+                <div style="width: 100%;text-align: center;">
+                    <a href="pages/produit.html" class="btn-plus"> PLUS DE PRODUITS </a>
+                </div>
+                <br><br>
+        </section>
+
+        <section class="bloc-commander" id="commande">
+
+            <h1> <span>C</span>ommander</h1>
+            <div class="trait-c"></div>
+            <br><br><br><br>
+       
+            <div class="bloc-flex">
+                <div class="inCommander">
+                    <br>
+                    <h3>Mes informations</h3>
+                    <hr>
+                    <div class="bloc-flex commander">
+                        <div class="bloc-img ">
+                            <img src="images/infos1.png" alt="" class="img-commander" >
+                        </div>
+                        <div class="bloc-info ">
+                            <i> NOM </i>: <i class="val"> Azer </i> <br>
+                            <!-- <hr> -->
+                            <i> TEL </i>: <i class="val" > 123456 </i>  <br>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="color: rgba(0, 0, 0, 0.460);">Compte valide  <i class="fas fa-check-circle" style="color: turquoise;"></i> </p> <!-- fas fa-user-check  -->
+                    <hr>
+                    <input type="button" value="commander" class="btn-commander" >          
+                </div>
+                <div class="bloc-panier ">
+                    <h3>Panier</h3>
+                    <hr>
+                    <p>
+                        Consulter le contenu de votre panier pour ainsi prendre 
+                        connaissance des articles selectionnés au cours de votre 
+                        vsite sur notre site web 
+                        <br>
+                        <h5>GOODFISH..</h5>
+                    </p>
+                    <hr>
+                    <button class="btn-panier" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#consulterPanier">
+                        consulter 
+                        <i style="color: turquoise;" class="fas fa-shopping-cart"></i>
+                    </button>
+
+                    <div class="modal fade titre-panier" id="consulterPanier" tabindex="-1" aria-labelledby="consulterPanierLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title h4" id="consulterPanierLabel">Votre Panier</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                               
+                                <div class="search-produit">
+                                    <input class="input-search" type="search" name="article" id="article" placeholder="..Entrez le nom du produit..">
+                                    <button class="btn-search">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                                <br><br>
+                    
+                               <br><br><br>
+                               <hr>
+                               <div class="head-table ">
+                                    <div class=" colon-produits "> Produits </div>
+                                    <div class=" colon-qte "> Qte </div>
+                                    <div class=" colon-prix "> Prix </div>
+                                    <div class=" colon-retirer ">  </div>
+                               </div>
+                               <hr>
+
+                               <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+                               <div class="ligne-table ">
+                                    <!-- ::::::::::: -->          
+                                    <div class=" colon-produits bg-produit">
+                                        <div class="bloc-flex">
+                                            <div class="img-produit ">
+                                                <img src="images/slider/poisson5.jpg" alt=""> 
+                                            </div>
+                                            <div class="text-produit ">
+                                                <i> POISSON1 </i> 
+                                                <hr>
+                                                <i> Qualité 4/4 </i> 
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-qte ">                  
+                                        <i class="fas fa-plus-circle"> </i>
+                                        | 1 | 
+                                        <i class="fas fa-minus-circle"> </i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-prix "> 
+                                        100$
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-retirer "> 
+                                        <i class="fas fa-window-close"></i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                               </div>
+                               <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                               <br>
+
+                                <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+                                <div class="ligne-table ">
+                                    <!-- ::::::::::: -->          
+                                    <div class=" colon-produits bg-produit">
+                                        <div class="bloc-flex">
+                                            <div class="img-produit ">
+                                                <img src="images/slider/poisson6.jpg" alt=""> 
+                                            </div>
+                                            <div class="text-produit ">
+                                                <i> POISSON5 </i> 
+                                                <hr>
+                                                <i> Qualité 3/4 </i> 
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-qte ">                  
+                                        <i class="fas fa-plus-circle"> </i>
+                                        | 5 | 
+                                        <i class="fas fa-minus-circle"> </i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-prix "> 
+                                        100$
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-retirer "> 
+                                        <i class="fas fa-window-close"></i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                               </div>
+                               <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                               <br>
+
+                                <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+                                <div class="ligne-table ">
+                                    <!-- ::::::::::: -->          
+                                    <div class=" colon-produits bg-produit">
+                                        <div class="bloc-flex">
+                                            <div class="img-produit ">
+                                                <img src="images/slider/poisson7.jpg" alt=""> 
+                                            </div>
+                                            <div class="text-produit ">
+                                                <i> POISSON2 </i> 
+                                                <hr>
+                                                <i> Qualité 2/4 </i> 
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-qte ">                  
+                                        <i class="fas fa-plus-circle"> </i>
+                                        | 1 | 
+                                        <i class="fas fa-minus-circle"> </i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-prix "> 
+                                        100$
+                                    </div>
+                                    <!-- ::::::::::: -->
+                                    <div class=" colon-retirer "> 
+                                        <i class="fas fa-window-close"></i>
+                                    </div>
+                                    <!-- ::::::::::: -->
+                               </div>
+                               <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+                               
+                    
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn-fermer" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   
+                    
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </section>
+
+        <section class="bloc-livraison" id="livraison">
+            <h1> <span>L</span>ivraison</h1>
+            <div class="trait-l"></div>
+            <!-- <div class="sphere2"></div>
+            <div class="sphere3"></div> -->
+            <br><br><br>
+
+            <div>
+                <h2 class="laposition"> <i> Ma position</i></h2>
+                <br><br>
+                <div class="bloc-flex">
+                    <div class="carteAuto">
+                        <p class="fas fa-search-location search-position"> </p>
+                    </div>
+                    <div class="etapeAuto">
+                        <ol>
+                            <br>
+                            <li>Activez la localisation de votre appareil</li>
+                            <br>
+                            <li>Cliquez sur la carte <i class="fas fa-map" style="color: turquoise;" ></i> pour que nous puissions vous localisez  </li>
+                            <br>
+                            <li>Validez la Livraison</li>
+                            <br>
+                        </ol>
+                    </div>
+                </div>
+                <br><br>
+                <div class="progres-etape">
+                   <i class="etape-cercle etape-effectuer">1</i> 
+                   <span style="color: rgba(64, 224, 208, 0.400);"> -------- </span> 
+                   <i class="etape-cercle">2</i> 
+                   <span style="color: rgba(64, 224, 208, 0.400);"> --------</span>
+                   <i class="etape-cercle">3</i> 
+                </div>
+            </div>
+            <br><br><br>
+            <div>
+                <h2 class="laposition"><i>Point de Livraison</i></h2>
+                <br><br>
+
+                <p class="etapeManual"><i> Selectionnez un point sur la carte </i></p>
+                <div class="carteManual">
+                    <p class="fas fa-search-location search-position search-position-2"> </p>
+                </div>
+
+                <br><br>
+                <p class="etapeManual"><i> Pour un meilleur resultat  </i></p>
+                <div class="precisionEtapes ">
+
+                    <button class="btn-rien">
+                        <i class="fas fa-exchange-alt"></i>
+                    </button>
+
+                    <input type="text" placeholder="Precicez la ville de livraison" class="ville-livraison">
+                    <input type="text" placeholder="Precicez le quatier de livraison" class="quatier-livraison">
+                    <input type="text" placeholder="Precicez la rue de livraison" class="rue-livraison">
+
+                    <button class="btn-etape">
+                        <i class="fas fa-search-location"></i>
+                    </button>
+
+                </div>
+            </div>
+            <br><br><br><br>
+        </section>
+
+        <section class="bloc-sincrire" id="sincrire">
+            <div class="ombre-s">
+                <br>
+                <h1> <span>S'</span>incrire</h1>
+                <div class="trait-s"></div>
+                <br>
+                <hr>
+                
+                <div class="bloc-form">
+                    <form action="">
+                        <label for="" > <i class="fas fa-user"  style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Entrez votre nom">
+                        <br><br>
+                        <label for="" > <i class="fas fa-mask"  style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Entrez votre pass">
+                        <br><br>
+                        <label for=""> <i class="fas fa-mail-bulk" style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Entrez votre email">
+                        <br><br>
+                        <label for=""> <i class="fas fa-phone" style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Entrez votre tel">
+                        <br><br>
+                        <label for=""> <i class="fas fa-city" style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Entrez votre ville">
+                        <br><br>
+                        <label for=""> <i class="fas fa-comment" style="position: relative;top: 6px;" ></i> </label>
+                        <input type="text" placeholder="Laissez nous un commentaire">
+                        <br><br>
+                        <br><br>
+                        <hr>
+                        <button type="submit" class="btn-valider">
+                            Valider
+                        </button>
+    
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <footer>   
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Goodfish</h2>
+                        <p style="text-align: justify;">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                        </p>
+                        <div class="footer-icons">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>                         
+                    </div>
+        
+                    <div class="col-md-6">
+                    <div class="footer-content">
+                        <div class="footer-head">
+                        <h4>information</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+                        <div class="footer-contacts">
+                            <p><span>Tel:</span>  (+237) 876545678 </p>
+                            <p><span>Email:</span> goodfish@gmail.com</p>
+                            <p><span>Heures de travail:</span> 8h00 - 22h-00</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end single footer -->
+                    
+                </div>
+                </div>
+            </div>
+            <br><br>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="copyright text-center">
+                        <p>
+                        &copy; Copyright <strong style="color: turquoise;">GOODFISH</strong>. All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="credits" style="text-align: center">
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                    </div>
+                </div>
+            
+        </footer>
+        <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+</body>
+<script src="vendor/swiper/glightbox.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
+<script src="js/slideProduit.js"></script>
+<script src="css/bootstap/js/bootstrap.bundle.js"></script>
+
+<!-- <script>
+    //script pour obtenir la taille de l'ecran
+    $(function() {
+        $(window).resize(function() {
+            var taille = 'Taille de la fenêtre : y: ' + $(window).width() +'px x :' + $(window).height() + 'px';
+            $('#resultat').text(taille);
+        });
+    });
+</script> -->
+<script>
+    new Swiper('.produit-slider', {
+       slidesPerView: 1 ,
+       slidesPerGroup: 1,
+       spaceBetween: 100 ,
+       // spaceBefore: 100 ,
+       // loopFillGroupWithBlank: true ,
+       loop: true,
+       speed: 600,
+       autoplay: {
+       delay: 5000,
+       disableOnInteraction: false
+       },
+       pagination: {
+       el: '.swiper-pagination',
+       type: 'bullets',
+       clickable: true
+       }
+   });
+
+   new Swiper('.produit-slider2', {
+       slidesPerView: 2 ,
+       slidesPerGroup: 2,
+       spaceBetween: 20 ,
+       // spaceBefore: 100 ,
+       // loopFillGroupWithBlank: true ,
+       loop: true,
+       speed: 600,
+       autoplay: {
+       delay: 4000,
+       disableOnInteraction: false
+       },
+       pagination: {
+       el: '.swiper-pagination',
+       type: 'bullets',
+       clickable: true
+       }
+   });
+
+   
+</script>
+</html>

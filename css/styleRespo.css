@@ -1,0 +1,561 @@
+@media only screen and (max-width:500px) {
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /* *{} */
+
+    body{
+        width: 100%;
+        scroll-behavior: smooth;
+        /* background-color: rgb(177, 168, 168); */
+        /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .bloc-logo{
+        width: 80px; /* 100px*/
+        height: 10%; /* 15% */
+    }
+
+    header{
+        height: 740px
+    }
+   
+    header .ombre h1{
+        font-size:200%; /*280*/
+    }
+
+    header .ombre p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size:15px;
+        font-weight: 700;
+        /* font-style: italic; */
+    }
+
+    #precedent , #suivant {
+       visibility: hidden;
+    }
+
+    .bulle-haut , .bulle-bas{
+        display: none;
+        visibility: hidden;
+    }
+
+    .toggle{
+        position: fixed;
+        top: 50px;
+        left: 300px;
+    }
+
+    
+    .menu li{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .bloc-boutton{
+        font-size: 15px;
+    }
+
+    .btn{
+        width: 100px;
+        height: 60px;
+    }
+    
+    .btn-principal{
+        width: 100px;
+        height: 60px;
+    }
+
+    
+    .bloc-boutton a span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+    .bloc-apropos h1{
+        font-size: 25px;
+        color: turquoise;
+        margin-left: 5%;
+    }
+
+    .bloc-apropos h1 span{
+        color: turquoise;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .trait{  
+        width: 50px;
+        height: 10px;
+    }
+
+    .bloc-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(0, 0, 0); */
+    }
+
+    .bloc-flex h4{
+        font-size: 20px;
+    }
+    
+    .inbloc-text{
+        margin-top: 50px;
+        border-radius: 10px;
+        width: 800px;
+        text-align: justify;
+        background-color: rgba(255, 255, 255, 0.800); 
+        padding: 4%;
+        border: 4px solid rgba(0, 0, 0, 0.01);
+        overflow-y: auto;
+        height: 420px;
+        font-size: 10px;
+    }
+    
+    .apropos-img{
+        width: 100%;
+        margin-top: 200%;
+    }
+
+    .sphere{
+        border: 3px solid rgba(64, 224, 208, 0.2);
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 100%;
+        background-color: rgba(64, 224, 208, 0.5);
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 25px;
+        top: 770px;
+    }
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+    .contact-infos b{
+        color: turquoise;
+    }
+
+    .contact-infos i{
+        font-size: 10px;
+    }
+
+    .my-call{
+        width: 33.33%;
+        font-size: 10px;
+    }
+
+    .my-email{
+        width: 33.33%;
+        font-size: 10px;
+    }
+
+    .my-location{
+        width: 33.33%;
+        font-size: 10px;
+    }
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    .bloc-produit h1{
+        font-size: 25px;
+        color: turquoise;
+        margin-left: 5%;
+    }
+
+    .bloc-produit h1 span{
+        color: turquoise;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .trait-p{
+        width: 50px;
+        height: 10px;
+        margin-left: 8%;
+    }
+
+    .bloc-produit p {
+        font-size: 12px;
+    }
+
+    .bg-turq .resPub{
+        font-size: 12px;
+    }
+
+    .bg-turq .resNbre{
+       margin-left: 40px;
+        font-size: 15px;
+    }
+
+    .nbre-poisson{
+        font-size: 20px;
+        margin-bottom: -500px;
+    }
+
+    .card-produit {
+        width: 200px;
+        height: 200px;
+    }
+    
+    /* .resCardProd{
+        width: 300px;
+        height: 200px;
+    } */
+
+    .card-text{
+        font-size: 8px;
+        width: 40%;
+        padding-left:5px ;
+        padding-right:5px ;
+        margin-top: -50px;
+        /* text-align: center; */
+     }
+    
+     
+     .card-text h3{
+        font-size: 12px;
+       
+     }
+
+    .bloc-produit .btn{
+        width: 50px;
+        height: 10px;
+        line-height: 0px;
+        font-size: 8px;
+        margin-left: -2px;
+    }
+
+    .point-plein{
+        width: 5px;
+        height: 5px;
+        margin-left: 0px;
+        border: 0.5px solid turquoise;
+    }
+     
+    .point-vide{
+        width: 5px;
+        height: 5px;
+        margin-left: 0px;
+        border: 0.5px solid turquoise;
+    }
+
+    .new {
+        display: none;
+    }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    .bloc-commander h1{
+        font-size: 25px;
+        color: turquoise;
+        margin-left: 5%;
+    }
+
+    .bloc-commander h1 span{
+        color: turquoise;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .trait-c{
+        width: 50px;
+        height: 10px;
+        margin-left: 8%;
+    }
+
+    .inCommander{
+        padding: 5px;
+        width: 100%;
+        /* height:350px; */
+    }
+
+    .inCommander h3{
+        font-size: 15px;
+    }
+
+    .inCommander P{
+        font-size: 12px;
+    }
+
+    .bloc-img{
+        width: 20%;
+    }
+
+    .bloc-info{
+        width: 80%;
+        font-size: 8px;
+    }
+
+    .btn-commander{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .bloc-panier{
+        font-size: 10px;
+    }
+
+    .bloc-panier h3{
+        font-size: 15px;
+    }
+
+    .bloc-panier h5{
+        font-size: 15px;
+    }
+
+    .bloc-commander .btn-panier{
+        width: 100px;
+        height: 40px;
+        line-height: 0px;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .btn-search{
+        height: 25px;
+    }
+
+    .input-search{
+        width: 200px;
+        height: 25px;
+    }
+
+    .img-produit{
+        height: 100px;
+        padding: 5px;
+    }
+
+    .text-produit{
+        font-size: 8px;
+        padding: 10px;
+    }
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    .bloc-livraison h1{
+        font-size: 25px;
+        color: turquoise;
+        margin-left: 5%;
+    }
+
+    .bloc-livraison h1 span{
+        color: turquoise;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .trait-l{
+        width: 50px;
+        height: 10px;
+        margin-left: 8%;
+    }
+
+    .laposition{
+        margin-right: 5%;
+        font-size: 18px;
+    }
+
+    .carteAuto{
+        height: 350px;
+    }
+
+    .search-position{
+        font-size: 800%;
+        left: 22%;
+        top: 30%;
+    }
+
+    .etapeAuto{
+        padding: 0px;
+        font-size: 10px;
+        width: 20%;
+    }
+    
+    .etape-cercle{
+        width: 20px;
+        height: 20px;
+        font-size: 7.5px;
+    }
+
+    .carteManual{
+        height: 400px;
+    }
+
+    .search-position-2{
+        font-size: 800%;
+        left: 30%;
+        top: 32%;
+    }
+
+    .ville-livraison{
+        width: 80px;
+        height: 40px;
+        margin: 0%;
+        font-size: 6px;
+    }   
+    
+    .quatier-livraison{
+        width: 80px;
+        height: 40px;
+        margin: 0%;
+        font-size: 6px;
+    }   
+    
+    .rue-livraison{
+        width: 80px;
+        height: 40px;
+        margin: 0%;
+        font-size: 6px;
+    }   
+
+    .btn-etape{
+        width: 20px;
+        height: 40px;
+        margin-left: 0px;
+        position: relative;
+        top: 1px;
+        font-size: 8px;
+    }
+    
+    .btn-rien{
+        width: 20px;
+        height: 40px;
+        margin-left: 0px;
+        position: relative;
+        top: 1px;
+        font-size: 8px;
+    }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    .bloc-sincrire h1{
+        font-size: 25px;
+        color: turquoise;
+        margin-left: 5%;
+    }
+
+    .bloc-sincrire h1 span{
+        color: turquoise;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .trait-s{
+        width: 50px;
+        height: 10px;
+        margin-left: 8%;
+    }
+
+    .bloc-form label{
+        width: 40px;
+        height: 40px;
+        top: -5px;
+    }
+    
+    .bloc-form input{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+    }
+    
+    .btn-valider{
+        width: 100px;
+        height: 40px;
+        line-height: 0px;
+        font-size: 15px;
+    }
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+footer{
+    font-size: 12px;
+}
+
+.footer-icons i{
+    font-size: 20px;
+    color: turquoise;
+}
+
+
+}
